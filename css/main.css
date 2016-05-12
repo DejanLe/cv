@@ -5,11 +5,26 @@ position: relative;
 color: #555;
 text-align: center;
 text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
-background-color: #6F5499;
-background-image: linear-gradient(to bottom, #52B5B9 0px, #6F5499 100%);
 background-repeat: repeat-x;
 font-weight: bold;
 
+}
+.jumbotron{
+	background-color: #6F5499;
+background-image: linear-gradient(to bottom, #52B5B9 0px, #6F5499 100%);
+}
+.content p {
+    color: #555;
+    font-size: 12px;
+    line-height: 2px;
+}
+.jumbotron h2{
+	color: #fff;
+	
+}
+.jumbotron  p{  
+	color: #fff;
+	font-size: 14px;
 }
 .container{
 	width: 768px;
@@ -25,9 +40,10 @@ font-weight: bold;
 .navbar-default{
 	background: #fff;
 	border-radius: 0;
+	margin-bottom: 0;
 }
  .footer a{
-	color: #fff;
+	color: #555;
 }
 .panel-default:hover {
    box-shadow: 0 0 15px   #555;

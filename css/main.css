@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body{
+font-family: 'Roboto', sans-serif;
 position: relative; 
-color: #fff;
+color: #555;
 text-align: center;
 text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 background-color: #6F5499;
@@ -18,7 +20,7 @@ font-weight: bold;
 	.container{
 		width: 100%;
 	}
- 
+
 }
 .navbar-default{
 	background: #fff;
@@ -26,4 +28,12 @@ font-weight: bold;
 }
  .footer a{
 	color: #fff;
+}
+.panel-default:hover {
+   box-shadow: 0 0 15px   #555;
+    transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    border-radius: 0px;
 }

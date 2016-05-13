@@ -54,3 +54,7 @@ font-weight: bold;
     -webkit-transition: all .3s ease;
     border-radius: 0px;
 }
+.landing-section{
+	background-color: #22A150;
+    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
+} 

@@ -72,3 +72,7 @@ font-weight: bold;
 	background-color: #22A150;
     background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
 } 
+.services{
+    padding : 60px;
+}
+ 

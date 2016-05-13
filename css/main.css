@@ -46,8 +46,16 @@ font-weight: bold;
  .footer a{
 	color: #555;
 }
-.panel-default:hover {
+.panel-default  {
    box-shadow: 0 0 15px   #555;
+    transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    border-radius: 0px;
+}
+.panel-default:hover {
+   box-shadow: 0 0 5px   #555;
     transition: all .3s ease;
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;

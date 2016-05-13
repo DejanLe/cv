@@ -7,6 +7,7 @@ text-align: center;
 text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 background-repeat: repeat-x;
 font-weight: bold;
+ 
 }
  
 .jumbotron {
@@ -15,7 +16,7 @@ font-weight: bold;
 }
  
 .content p {
-    color: #555;
+    color: #fff;
     font-size: 12px;
     line-height: 2px;
 }
@@ -46,13 +47,17 @@ font-weight: bold;
 	color: #555;
 }
 .panel-default{
+    background-color: #22A150;
+    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
    box-shadow: 0 0 15px   #555;
     transition: all .3s ease;
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     border-radius: 0px;
+    color:#fff;
 }
+
 .panel-default:hover {
    box-shadow: 0 0 5px   #555;
     transition: all .3s ease;

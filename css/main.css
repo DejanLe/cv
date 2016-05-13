@@ -9,10 +9,12 @@ background-repeat: repeat-x;
 font-weight: bold;
 
 }
-.jumbotron{
-	background-color: #6F5499;
-background-image: linear-gradient(to bottom, #52B5B9 0px, #6F5499 100%);
+ 
+.jumbotron {
+    background-color: #22A150;
+    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
 }
+ 
 .content p {
     color: #555;
     font-size: 12px;

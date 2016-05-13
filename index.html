@@ -18,8 +18,15 @@
     <![endif]-->
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/main.css">
  <link rel="stylesheet" href="css/animate.css">
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
   </head>
   <body>
        <nav class="navbar navbar-default">
@@ -49,7 +56,7 @@
 <div class="jumbotron">
   <div class="container">
     <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" >
                <img src="image/profile.png" class="img-circle portfolio_image">   
                     <h2>Dejan Nikolic</h2>
                        <p>Why choose me because I'm doing this for pleasure. I finished Economic Sciences (dipl. oec)<br> I' am a junior web coder. Work with: Bootstrap3, css3, html5, media queries.
@@ -66,7 +73,7 @@
                     <h2 class="animated zoomIn">INTERESTS</h2>
                         <div class="col-md-6">
                             <div  class="animated zoomIn  panel panel-default">
-                              <div class="panel-body">
+                              <div class="panel-body" data-toggle="tooltip" data-placement="top" title="Frontend">
                                    <h2>Frontend</h2>   
                                       <p>Bootstrap </p> 
                                         <p> React js </p> 
@@ -77,7 +84,7 @@
                         </div>
                         <div class="col-md-6"> 
                           <div class="animated zoomIn panel panel-default">
-                              <div class="panel-body">
+                              <div class="panel-body" data-toggle="tooltip" data-placement="top" title="Backend">
                                    <h2>Backend</h2>
                                      <p> Rauby on Rails </p> 
                                        <p>Wordpress Theme Development</p>   
@@ -89,7 +96,7 @@
                     <div class="col-md-12">
                      <div  class="animated zoomIn panel panel-default">
                        <div class="panel-body">
-                               <h2>EMPLOYMENT HISTORY</h2> 
+                               <h2>EMPLOYMENT</h2> 
                                  <h3>web app developer | Modals
                                   November 2015 - Present    </h3>   
                                  <p>Modals  is agency for web app development. Position web app developer</p>     
@@ -125,8 +132,7 @@
     </div>
   </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

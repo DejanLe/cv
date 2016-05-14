@@ -16,8 +16,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -25,8 +24,8 @@
  <link rel="stylesheet" href="css/font-awesome.min.css">
  
   </head>
-  <body>
-       <nav class="navbar navbar-default">
+  <body id="top">
+       <nav class="navbar navbar-default navbar-fixed-top">
          <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -37,13 +36,15 @@
               <span class="icon-bar"></span>
             </button>
            <a class="navbar-brand" href="index.html">Dejan Nikolic</a>
+
         </div>
 <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
           
           <li><a href="index.html">ABOUT</a></li>
-          <li><a href="index.html">BLOG</a></li>
+          <li><a href="#services">SERVICES</a></li>
+           <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -54,40 +55,75 @@
   <div class="container">
     <div class="row">
           <div class="col-md-12" >
-               <img src="image/profile.png" class="img-circle portfolio_image">   
-                    <h2>Dejan Nikolic</h2>
+               <img src="image/aproved.jpg" class="img-responsive aproved_image">
+                    <h2>Application development</h2>
                        <p>Why choose me because I'm doing this for pleasure. I finished Economic Sciences (dipl. oec)<br> I' am a junior web coder. Work with: Bootstrap3, css3, html5, media queries.
                        <br> Familiar and learn : WordPress, laravel,Ruby on Rails, Haml, Jekyll</p>  
-                      
+                      <br> 
+              <a href="#contact"> <button  class="btn btn-default hire_me">Hire me!</button>  </a>
           </div> 
     </div>
   </div> 
 </div>
 <!--services-->
-<div class="services">
+<div id="services" class="services">
   <div class="container">
     <div class="row text-center">
     <h2 class="animated zoomIn"><strong>SERVICES</strong></h2>
       <div class="col-md-8">
-        <h4><strong>WEB APP DEVELOPMENT</strong></h4>
-        <h5 style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada eget tellus non ultrices. Suspendisse dui enim, luctus ac interdum vitae, placerat non nisi. Sed tempus libero a mi facilisis varius. In nec accumsan eros. Sed convallis elit felis. Sed eu dignissim felis. Vivamus sollicitudin mauris vel malesuada lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus et luctus odio, ut rhoncus risus. </h5>
+        <h4 class="animated zoomIn"><strong>RESPONSIVE WEB SITES</strong></h4>
+        <h5 class="animated zoomIn">Do you need a very fast web site  and fully customizable resolutions  for your devices.  Tell us how we can help.</h5>
       </div>
       <div class="col-md-4">
-        <img src="image/service.png" class="img-responsive">
-      </div>
+        <img src="image/service.png" class="img-responsive animated zoomIn">
+      </div> 
     </div>
      <div class="row text-center"> 
      <div class="col-md-4">
-        <img src="image/services.png" class="img-responsive">
+        <img src="image/services.png" class="img-responsive animated zoomIn">
       </div>
       <div class="col-md-8">
-        <h4><strong>WEB APP DEVELOPMENT</strong></h4>
-        <h5 style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada eget tellus non ultrices. Suspendisse dui enim, luctus ac interdum vitae, placerat non nisi. Sed tempus libero a mi facilisis varius. In nec accumsan eros. Sed convallis elit felis. Sed eu dignissim felis. Vivamus sollicitudin mauris vel malesuada lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus et luctus odio, ut rhoncus risus. </h5>
-      </div>
-     
-    </div>
+        <h4  class="animated zoomIn"><strong>WEB APP DEVELOPMENT</strong></h4>
+        <h5 class="animated zoomIn">Do you need a very fast web application  and fully customizable yor you.  Tell us how we can help.</h5>
+      </div> 
+    </div>  
   </div>
 </div>
+
+<!--offers-->
+  <div class="offers">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-4 ">
+        <h3>Basic website</h3>
+        <div class="text-left">
+        <h5 style="color:red"><i class="fa fa-check" aria-hidden="true"></i>  Bootstrap framework </h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> FontAwesome</h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Media Queries</h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Css 3</h5>
+        </div>
+       
+      </div>
+       <div class="col-md-4  ">
+        <h3>Pro website</h3>
+         <div class="text-left">
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Bootstrap framework  </h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> FontAwesome</h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Media Queries</h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Css 3</h5>
+        <h5><i class="fa fa-check" aria-hidden="true"></i> Wordpress  </h5>
+        <h5 style="color:red"><i class="fa fa-check" aria-hidden="true"></i> Ruby on Rails</h5> 
+         </div>
+      </div>
+       <div class="col-md-4 ">
+        <h3>Special offers!</h3>
+         <div class="text-left">
+        <h5 style="color:red"><i class="fa fa-check" aria-hidden="true"></i> Jekyll website  </h5> 
+         </div>
+      </div>
+      </div>
+    </div>
+  </div>
 <div class="content">
     <div class="container">
           <div class="row">
@@ -142,50 +178,58 @@
       
        
 
-  <div class="footer">
-      <div class="container">
-        <div class="row">
-         <div class="col-md-12">
-          <h2>CONTACT</h2>    
-       <a href="https://github.com/DejanLe" target="_blank">Github</a> 
-       <a href="https://twitter.com/bootstrapfruits" target="_blank">Twitter</a>
-    </div>
-    </div>
-  </div>
-  </div>
+ 
+
+
+<div id="contact" class="footer">
   <div class="section landing-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
+                    
+      
+                        <div class="col-md-6">
                             <h2 class="text-center">Keep in touch?</h2>
                             <form class="contact-form">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Name</label>
-                                        <input class="form-control" placeholder="Name">
+                                        <input class="form-control"required="" placeholder="Name" >
                                     </div>
                                     <div class="col-md-6">
                                         <label>Email</label>
-                                        <input class="form-control" placeholder="Email">
+                                        <input class="form-control" required="" placeholder="Email">
                                     </div>
                                 </div>
                                 <label>Message</label>
-                                <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+                                <textarea class="form-control" rows="4"required=""  placeholder="Do you need a web application or web site, send your request, thank you!"></textarea>
                                 <div class="row">
                                     <div class="col-md-4 col-md-offset-4">
-                                        <button class="btn btn-danger btn-block btn-lg btn-fill">demo</button>
+                                        <button class="btn btn-default btn-block   btn-fill">Submit</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
+                     <div class="col-md-6">
+                        <img src="image/aproved.jpg" class="img-responsive aproved_image">   
+                     </div>
                     </div>
                     
                 </div>
             </div>
-             
-   
-    <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+           </div> 
+
+   <div class="footer_bootom">
+     <div  class="container">
+       <div class="row">
+         <p class="col-md-12">
+         <p>&copy 2016 Dejan Nikolic</p>
+         <a href="https://github.com/DejanLe" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> 
+         <a href="https://twitter.com/bootstrapfruits" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a> 
+          <a href="#top"><i class="fa fa-angle-up pull-right" aria-hidden="true"></i></a> </p>
+       </div>
+     </div>
+   </div>
+ 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 body{
+padding-top: 20px;
 font-family: 'Slabo 27px', serif;
 position: relative; 
 color: #555;
@@ -11,10 +12,13 @@ font-weight: bold;
 }
  
 .jumbotron {
-    background-color: #22A150;
-    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
+    background-color: #3E7A9F;
+background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
 }
- 
+.aproved_image{
+    max-width: 50%;
+    display: inline-block;
+}
 .content p {
     color: #fff;
     font-size: 12px;
@@ -26,6 +30,10 @@ font-weight: bold;
 .jumbotron  p{  
 	color: #fff;
 	font-size: 14px;
+}
+.jumbotron .btn-default{
+     
+    border-radius: 25px;
 }
 .container{
 	width: 768px;
@@ -49,8 +57,8 @@ font-weight: bold;
 	color: #555;
 }
 .panel-default{
-    background-color: #22A150;
-    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
+    background-color: #3E7A9F;
+background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
    box-shadow: 0 0 15px   #555;
     transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -69,10 +77,28 @@ font-weight: bold;
     border-radius: 0px;
 }
 .landing-section{
-	background-color: #22A150;
-    background-image: linear-gradient(to bottom, #24898D 0px, #54995C 100%);
+	background-color: #3E7A9F;
+background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
 } 
 .services{
     padding : 60px;
+    text-align: center
 }
  
+.footer_bootom{
+    background: #2A4B63;
+    color: #fff;
+}
+.footer .aproved_image{
+    max-width: 100%;
+    display: inline-block;
+}
+.footer .btn{
+    border-radius: 25px;
+}
+.footer .form-control{
+    border-radius: 25px;
+}
+.footer{
+    color: #fff;
+}

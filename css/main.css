@@ -1,3 +1,22 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 body{
 padding-top: 20px;
@@ -16,9 +35,10 @@ font-weight: bold;
 background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
 }
 .aproved_image{
-    max-width: 50%;
+    max-width: 25%;
     display: inline-block;
 }
+ 
 .content p {
     color: #fff;
     font-size: 12px;
@@ -38,16 +58,22 @@ background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
 .container{
 	width: 768px;
 	margin:0 auto;
-	ba 
+	 
 }
-@media(max-width: 768px){
+@media(max-width: 992px){
 	.container{
 		width: 100%;
 	}
     .portfolio_image{
         border-radius: 50%;
     }
+    .align{
+        text-align: center !important;
+    }
+
 }
+ 
+ 
 .navbar-default{
 	background: #fff;
 	border-radius: 0;
@@ -85,13 +111,18 @@ background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
     text-align: center
 }
  
+.contact-form{
+  height: 25%;
+  width: auto;
+}
 .footer_bootom{
     background: #2A4B63;
     color: #fff;
 }
 .footer .aproved_image{
-    max-width: 100%;
+    max-width: 25%;
     display: inline-block;
+    padding-top: 45px;
 }
 .footer .btn{
     border-radius: 25px;
@@ -101,4 +132,158 @@ background-image: linear-gradient(to bottom, #487CA3 0px, #116D96 100%);
 }
 .footer{
     color: #fff;
+}
+.heart {
+    font-size: 152px;
+    text-align: center;
+    color: rgba(165, 25, 25, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.pulse1 {
+    -webkit-animation: pulse1 1s linear infinite;
+    -moz-animation: pulse1 1s linear infinite;
+    -ms-animation: pulse1 1s linear infinite;
+    animation: pulse1 1s linear infinite;
+}
+
+@keyframes "pulse1" {
+ 0% {
+    color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+    color: rgba(255,0,0,0.0);
+ }
+ 100% {
+    color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-moz-keyframes pulse1 {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-webkit-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-ms-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+.pulse2 {
+    -webkit-animation: pulse2 1s linear infinite;
+    -moz-animation: pulse2 1s linear infinite;
+    -ms-animation: pulse2 1s linear infinite;
+    animation: pulse2 1s linear infinite;
+}
+
+@keyframes "pulse2" {
+ 0% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pulse2 {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pulse2" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pulse2" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+/************blogs*************/
+.all_blogs{
+  padding-top:100px;
+  text-align: left;
+}
+.all_blogs h3{
+  color: #3E7A9F;
 }

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
+body{
+padding-top: 20px;
+font-family: 'Lato', sans-serif;
+position: relative; 
+color: #000;
+font-size: 16px; 
+text-align: center;
+text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+background-repeat: repeat-x;
+font-weight: bold;
+font-weight: 300;
+
+}
+.container{
+  width: 768px;
+}
+@media(max-width: 768px){
+          .container{
+            width: 100%;
+          }
+         .navbar-default .navbar-brand {
+            color: #784CAB;
+        }
+    } 
+.navbar-default{
+    background: #fff;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron {
+   background-color:#784cab; 
+   background-image: linear-gradient(to bottom,  #784CAB 0px,#491E7B 100%); 
+         h2{
+        padding-top: 100px;
+        color: #fff;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+        p{  
+        color: #a5a5a5;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .btn-default{
+      border-radius: 45px;
+      padding: 5px 45px;
+      transition: all 0.5s;
+    }
+ 
+
+}
+@media(max-width: 768px)
+{
+ .jumbotron h2{  
+  font-size: 32px;
+ 
+}
+}
+.about{
+  padding-top: 50px;
+  padding-bottom: 50px; 
+    .about p{
+      margin-bottom: 30px;
+    }
+}
+.services{
+  padding-top: 50px;
+  padding-bottom: 50px; 
+    h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }; 
+     h4{
+      margin-bottom: 30px;
+    }
+    h5{
+      margin-bottom: 30px;
+    }
+}
+ 
+@media(max-width: 960px){
+  .services .img-responsive{
+    display: block;
+    width: 45%;
+  }
+}
+ 
+ 
+/*footer*/
+ 
+.footer{
+  color: #fff;
+  background: #111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+    .fa{
+      color: #fff;
+      transition: all 0.5s;
+      &:hover{
+        color: #784cab;
+      };
+  } 
+}
